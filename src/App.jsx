@@ -1,13 +1,12 @@
-import Food from "./components/Food";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Card from "./components/Card";
 
 function App() {
 	return (
 		<>
-			<Header />
+    <Card/>
+			{/* <Header />
       <Food/>
-      <Footer/>
+      <Footer/> */}
 		</>
 	);
 }
