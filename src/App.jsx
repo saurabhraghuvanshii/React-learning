@@ -1,9 +1,11 @@
-import Card from "./components/Card";
+import Student from "./Props/Student";
+
 
 function App() {
 	return (
 		<>
-    <Card/>
+    <Student name="saurabh" age={19} isStudent={true}/>
+    {/* <Card/> */}
 			{/* <Header />
       <Food/>
       <Footer/> */}
