@@ -12,8 +12,8 @@
 // 	);
 // }
 
-import Button from "./components/Button";
-import ProfilePicture from "./components/ProfilePicture";
+import Counter from "./Counter";
+//import Mycomponent from "./Mycomponents/Mycomponent";
 
 // const App = () => {
 // 	const fruits = [
@@ -40,10 +40,17 @@ import ProfilePicture from "./components/ProfilePicture";
 // 	);
 // };
 
+// const App = () => {
+// 	return <div>
+// 		<Button />
+// 		<ProfilePicture/>
+// 	</div>;
+// };
+
 const App = () => {
 	return <div>
-		<Button />
-		<ProfilePicture/>
+		{/* <Mycomponent/> */}
+		<Counter/>
 	</div>;
 };
 
