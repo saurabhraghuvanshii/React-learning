@@ -13,7 +13,8 @@
 // }
 
 //import Counter from "./Counter";
-import Mycomponent from "./Mycomponents/Mycomponent";
+import ColorPicker from "./Mycomponents/ColorPicker";
+//import Mycomponent from "./Mycomponents/Mycomponent";
 
 // const App = () => {
 // 	const fruits = [
@@ -57,7 +58,7 @@ import Mycomponent from "./Mycomponents/Mycomponent";
 
 const App = () => {
 	return <div>
-		<Mycomponent/>
+		<ColorPicker/>
 	</div>;
 };
 export default App;
