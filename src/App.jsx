@@ -12,8 +12,8 @@
 // 	);
 // }
 
-import Counter from "./Counter";
-//import Mycomponent from "./Mycomponents/Mycomponent";
+//import Counter from "./Counter";
+import Mycomponent from "./Mycomponents/Mycomponent";
 
 // const App = () => {
 // 	const fruits = [
@@ -47,11 +47,17 @@ import Counter from "./Counter";
 // 	</div>;
 // };
 
+// const App = () => {
+// 	return <div>
+// 		{/* <Mycomponent/> */}
+// 		<Counter/>
+// 	</div>;
+// };
+
+
 const App = () => {
 	return <div>
-		{/* <Mycomponent/> */}
-		<Counter/>
+		<Mycomponent/>
 	</div>;
 };
-
 export default App;
