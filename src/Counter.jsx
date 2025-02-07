@@ -17,6 +17,8 @@ const Counter = () => {
     
     const increment = () => {
         setCount(count +1 );
+        //updater function safe updates based on the previous state
+        setCount(c => c+1);
     }
 
     const decrement = () => {

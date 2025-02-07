@@ -12,8 +12,8 @@
 // 	);
 // }
 
-//import Counter from "./Counter";
-import ColorPicker from "./Mycomponents/ColorPicker";
+import Counter from "./Counter";
+//import ColorPicker from "./Mycomponents/ColorPicker";
 //import Mycomponent from "./Mycomponents/Mycomponent";
 
 // const App = () => {
@@ -58,7 +58,8 @@ import ColorPicker from "./Mycomponents/ColorPicker";
 
 const App = () => {
 	return <div>
-		<ColorPicker/>
+		<Counter/>
+		{/* <ColorPicker/> */}
 	</div>;
 };
 export default App;
