@@ -12,7 +12,9 @@
 // 	);
 // }
 
-import UpdateArrState from "./Mycomponents/UpdateArrState";
+import UpadteArrofObject from "./Mycomponents/UpadteArrofObject";
+
+//import UpdateArrState from "./Mycomponents/UpdateArrState";
 
 //import UpdateObj from "./Mycomponents/UpdateObj";
 
@@ -73,9 +75,15 @@ import UpdateArrState from "./Mycomponents/UpdateArrState";
 // 	</div>;
 // };
 
+// const App = () => {
+// 	return <div>
+// 		<UpdateArrState/>
+// 	</div>;
+// };
+
 const App = () => {
 	return <div>
-		<UpdateArrState/>
+		<UpadteArrofObject/>
 	</div>;
 };
 
