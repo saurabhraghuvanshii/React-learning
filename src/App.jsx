@@ -12,7 +12,9 @@
 // 	);
 // }
 
-import UpdateObj from "./Mycomponents/UpdateObj";
+import UpdateArrState from "./Mycomponents/UpdateArrState";
+
+//import UpdateObj from "./Mycomponents/UpdateObj";
 
 //import Counter from "./Counter";
 //import ColorPicker from "./Mycomponents/ColorPicker";
@@ -65,9 +67,15 @@ import UpdateObj from "./Mycomponents/UpdateObj";
 // 	</div>;
 // };
 
+// const App = () => {
+// 	return <div>
+// 		<UpdateObj/>
+// 	</div>;
+// };
+
 const App = () => {
 	return <div>
-		<UpdateObj/>
+		<UpdateArrState/>
 	</div>;
 };
 
