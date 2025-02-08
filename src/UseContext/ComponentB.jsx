@@ -1,12 +1,12 @@
-import ComponentC from "./ComponentC"
+import ComponentC from "./ComponentC";
 
-const ComponentB = (props) => {
-  return (
-    <div>
-        <h1>ComponetB</h1>
-        <ComponentC user={props.user}/>
-    </div>
-  )
-}
+const ComponentB = () => {
+	return (
+		<div>
+			<h1>ComponetB</h1>
+			<ComponentC />
+		</div>
+	);
+};
 
-export default ComponentB
+export default ComponentB;
