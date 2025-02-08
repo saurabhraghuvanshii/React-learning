@@ -1,6 +1,7 @@
 // import UpadteArrofObject from "./Mycomponents/UpadteArrofObject";
 
-import TodoList from "./TodoList";
+//import TodoList from "./TodoList";
+import UseEffect from "./UseEffect";
 
 // import UpdateArrState from "./Mycomponents/UpdateArrState";
 
@@ -83,9 +84,15 @@ import TodoList from "./TodoList";
 // 	</div>;
 // };
 
+// const App = () => {
+// 	return <div>
+// 		<TodoList/>
+// 	</div>;
+// };
+
 const App = () => {
 	return <div>
-		<TodoList/>
+		<UseEffect/>
 	</div>;
 };
 
