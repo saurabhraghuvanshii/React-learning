@@ -1,7 +1,8 @@
 // import UpadteArrofObject from "./Mycomponents/UpadteArrofObject";
 
 //import TodoList from "./TodoList";
-import DigitalWatch from "./DigitalWatch";
+//import DigitalWatch from "./DigitalWatch";
+import ComponentA from "./UseContext/ComponentA";
 //import UseEffect from "./UseEffect";
 
 // import UpdateArrState from "./Mycomponents/UpdateArrState";
@@ -97,9 +98,15 @@ import DigitalWatch from "./DigitalWatch";
 // 	</div>;
 // };
 
+// const App = () => {
+// 	return <div>
+// 		<DigitalWatch/>
+// 	</div>;
+// };
+
 const App = () => {
 	return <div>
-		<DigitalWatch/>
+		<ComponentA/>
 	</div>;
 };
 
