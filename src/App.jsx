@@ -1,3 +1,15 @@
+// import UpadteArrofObject from "./Mycomponents/UpadteArrofObject";
+
+import TodoList from "./TodoList";
+
+// import UpdateArrState from "./Mycomponents/UpdateArrState";
+
+// import UpdateObj from "./Mycomponents/UpdateObj";
+
+// import Counter from "./Counter";
+// import ColorPicker from "./Mycomponents/ColorPicker";
+// import Mycomponent from "./Mycomponents/Mycomponent";
+
 // function App() {
 // 	return (
 // 		<>
@@ -11,16 +23,6 @@
 // 		</>
 // 	);
 // }
-
-import UpadteArrofObject from "./Mycomponents/UpadteArrofObject";
-
-//import UpdateArrState from "./Mycomponents/UpdateArrState";
-
-//import UpdateObj from "./Mycomponents/UpdateObj";
-
-//import Counter from "./Counter";
-//import ColorPicker from "./Mycomponents/ColorPicker";
-//import Mycomponent from "./Mycomponents/Mycomponent";
 
 // const App = () => {
 // 	const fruits = [
@@ -83,7 +85,7 @@ import UpadteArrofObject from "./Mycomponents/UpadteArrofObject";
 
 const App = () => {
 	return <div>
-		<UpadteArrofObject/>
+		<TodoList/>
 	</div>;
 };
 
