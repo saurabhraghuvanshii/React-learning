@@ -2,7 +2,8 @@
 
 //import TodoList from "./TodoList";
 //import DigitalWatch from "./DigitalWatch";
-import ComponentA from "./UseContext/ComponentA";
+//import ComponentA from "./UseContext/ComponentA";
+import UseRef from "./UseRef";
 //import UseEffect from "./UseEffect";
 
 // import UpdateArrState from "./Mycomponents/UpdateArrState";
@@ -104,9 +105,15 @@ import ComponentA from "./UseContext/ComponentA";
 // 	</div>;
 // };
 
+// const App = () => {
+// 	return <div>
+// 		<ComponentA/>
+// 	</div>;
+// };
+
 const App = () => {
 	return <div>
-		<ComponentA/>
+		<UseRef/>
 	</div>;
 };
 
