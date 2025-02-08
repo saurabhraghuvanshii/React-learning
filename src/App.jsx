@@ -12,7 +12,9 @@
 // 	);
 // }
 
-import Counter from "./Counter";
+import UpdateObj from "./Mycomponents/UpdateObj";
+
+//import Counter from "./Counter";
 //import ColorPicker from "./Mycomponents/ColorPicker";
 //import Mycomponent from "./Mycomponents/Mycomponent";
 
@@ -56,10 +58,17 @@ import Counter from "./Counter";
 // };
 
 
+// const App = () => {
+// 	return <div>
+// 		{/* <Counter/> */}
+// 		{/* <ColorPicker/> */}
+// 	</div>;
+// };
+
 const App = () => {
 	return <div>
-		<Counter/>
-		{/* <ColorPicker/> */}
+		<UpdateObj/>
 	</div>;
 };
+
 export default App;
