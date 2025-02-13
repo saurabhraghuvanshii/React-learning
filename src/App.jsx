@@ -1,9 +1,11 @@
 // import UpadteArrofObject from "./Mycomponents/UpadteArrofObject";
 
+import StopWatch from "./StopWatch";
+
 //import TodoList from "./TodoList";
 //import DigitalWatch from "./DigitalWatch";
 //import ComponentA from "./UseContext/ComponentA";
-import UseRef from "./UseRef";
+//import UseRef from "./UseRef";
 //import UseEffect from "./UseEffect";
 
 // import UpdateArrState from "./Mycomponents/UpdateArrState";
@@ -111,9 +113,15 @@ import UseRef from "./UseRef";
 // 	</div>;
 // };
 
+// const App = () => {
+// 	return <div>
+// 		<UseRef/>
+// 	</div>;
+// };
+
 const App = () => {
 	return <div>
-		<UseRef/>
+		<StopWatch/>
 	</div>;
 };
 
